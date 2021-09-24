@@ -1,0 +1,38 @@
+.topbar {
+  background-color: #ffffff;
+  height: 64px;
+  font-size: 1rem;
+  color: #202124;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  position: relative;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 576px) {
+  .topbar {
+    background-color: #ffffff;
+    height: 64px;
+    font-size: 1rem;
+    color: #202124;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    position: relative;
+  }
+}
